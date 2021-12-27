@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ChocolateTalk</title>
+</head>
+<body id="login">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>LGU +</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>16:43</span>
+        </div>
+        <div class="status-bar__column">
+           <span>99%</span> 
+           <i class="fas fa-battery-full fa-lg"></i>
+           <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <img src="https://cdn-icons.flaticon.com/png/512/1660/premium/1660567.png?token=exp=1640582879~hmac=f372f85c518291e36cf9b999c3a00be6"/>
+        <h1 class="welcome-header__title">Welcome to ChocolateTalk</h1>
+        <p class="welcome-header__text"> 
+            if you have a CHOCOLATE Account, log in with your email or phone number.
+        </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form"> 
+        <input type="email" required placeholder="Email or phone number">
+        <input type="password" required placeholder="Password">
+        <input type="submit" value="Log In">
+        <a href="#">Find CHOCOLATE Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your Screen is too big!<br>Please resize your Screen.</br></span>
+    </div>
+
+    <script src="http://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

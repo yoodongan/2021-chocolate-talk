@@ -1,0 +1,60 @@
+.screen-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+}
+.screen-header__title{
+    font-size: 32px;
+    font-weight: 600;
+}
+.screen-header__icons span{
+    margin-left: 25px;
+}
+.screen-header__icons a{
+    color:inherit;
+}
+
+@keyframes rotateCog{
+    from{
+        transform:none;
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover{
+    animation: rotateCog 2s linear infinite;
+}
+
+
+@keyframes upIcon{
+    0%{
+        transform:none;
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform:none;
+    }
+}
+
+.screen-header__icons .fa-search:hover{
+    
+    animation: upIcon 1s linear infinite;
+}
+
+.screen-header__icons .fa-music:hover{
+    
+    animation: upIcon 1s linear infinite;
+}
+.find-icons i:hover{
+    animation: upIcon 1s linear infinite;
+
+}
+
+
+

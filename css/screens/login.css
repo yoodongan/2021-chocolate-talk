@@ -1,0 +1,74 @@
+.welcome-header{
+    margin : 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.welcome-header img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 40px;
+    
+}
+.welcome-header__title{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color:var(--chocolate);
+    font-weight: 600;
+}
+.welcome-header__text{
+    width: 60%;
+    opacity: 0.7;
+}
+
+#login-form{
+    display:flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+#login-form input{
+    padding: 15px 0px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 28px;
+    
+}
+#login-form input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    padding : 0px 10px;
+}
+#login-form input:not([type="submit"]){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.5s ease-in-out; 
+}
+#login-form input:first-child,
+#login-form input:nth-child(2){
+    border-radius: 15px;
+    background-color: var(--beeswax);
+}
+
+#login-form input:focus{
+    border-color:var(--chocolate);
+}
+#login-form input[type="submit"]{
+    background-color: var(--chocolate);
+    cursor:pointer;   /* 이 외에도 progress, not-allowed가 있음.*/
+    padding: 20px 0;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.5s ease-out;
+}
+#login-form input[type="submit"]:hover{
+    background-color: rgb(199, 165, 120);
+}
+
+
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;    /* 부모 색을 상속받는 것임.*/
+    font-size: 14px;
+
+}

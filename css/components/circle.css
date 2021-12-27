@@ -1,0 +1,26 @@
+.screen-header__icons{
+    position: relative;
+}
+.screen-header__circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+
+}
+.find-icons__icon{
+    position: relative;
+}
+.find-icons__circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    right: 7px;
+    top: -7px;
+
+}

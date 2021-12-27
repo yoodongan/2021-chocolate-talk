@@ -1,0 +1,8 @@
+:root{
+    --naver: #19CE60;
+    --horizontal-space: 25px;
+    --chocolate: #2e211f;
+    --beeswax:#E9D6AB;
+    --background-color:#9C8164;
+    --main-border: 1px solid var(--beeswax);
+}
